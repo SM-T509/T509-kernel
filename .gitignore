@@ -1,0 +1,29 @@
+# T509 kernel build output (excluded from GitHub)
+out/
+out-clang/
+out-*/
+*.o
+*.ko
+*.o.cmd
+*.cmd
+*.o.d
+*.symvers
+*.order
+*.mod.c
+*.mod.o
+Module.symvers
+modules.order
+*.swp
+*.bak
+*.orig
+*.rej
+*~
+# build config output
+.config
+.config.old
+# tags
+tags
+TAGS
+cscope.*
+# generated
+compile_commands.json
